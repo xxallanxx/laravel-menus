@@ -1,6 +1,6 @@
 <?php
 
-namespace xxallanxx\Menus\Presenters\Bootstrap;
+namespace Nwidart\Menus\Presenters\Bootstrap;
 
 class NavMenuPresenter extends NavbarPresenter
 {
@@ -32,7 +32,7 @@ class NavMenuPresenter extends NavbarPresenter
     /**
      * Get multilevel menu wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string`
      */

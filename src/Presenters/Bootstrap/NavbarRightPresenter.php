@@ -1,6 +1,6 @@
 <?php
 
-namespace xxallanxx\Menus\Presenters\Bootstrap;
+namespace Nwidart\Menus\Presenters\Bootstrap;
 
 class NavbarRightPresenter extends NavbarPresenter
 {

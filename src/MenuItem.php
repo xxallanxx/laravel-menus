@@ -1,6 +1,6 @@
 <?php
 
-namespace xxallanxx\Menus;
+namespace Nwidart\Menus;
 
 use Closure;
 use Collective\Html\HtmlFacade as HTML;

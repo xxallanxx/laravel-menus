@@ -1,6 +1,6 @@
 <?php
 
-namespace xxallanxx\Menus;
+namespace Nwidart\Menus;
 
 use Closure;
 use Countable;
@@ -42,7 +42,7 @@ class Menu implements Countable
      * @param string $name
      * @param Closure $callback
      *
-     * @return \xxallanxx\Menus\MenuBuilder
+     * @return \Nwidart\Menus\MenuBuilder
      */
     public function make($name, \Closure $callback)
     {
@@ -55,7 +55,7 @@ class Menu implements Countable
      * @param string   $name
      * @param Callable $resolver
      *
-     * @return \xxallanxx\Menus\MenuBuilder
+     * @return \Nwidart\Menus\MenuBuilder
      */
     public function create($name, Closure $resolver)
     {

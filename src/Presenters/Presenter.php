@@ -1,8 +1,8 @@
 <?php
 
-namespace xxallanxx\Menus\Presenters;
+namespace Nwidart\Menus\Presenters;
 
-use xxallanxx\Menus\MenuItem;
+use Nwidart\Menus\MenuItem;
 
 abstract class Presenter implements PresenterInterface
 {
@@ -27,7 +27,7 @@ abstract class Presenter implements PresenterInterface
     /**
      * Get menu tag without dropdown wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string
      */
@@ -47,7 +47,7 @@ abstract class Presenter implements PresenterInterface
     /**
      * Get header dropdown tag wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string
      */
@@ -58,7 +58,7 @@ abstract class Presenter implements PresenterInterface
     /**
      * Get menu tag with dropdown wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string
      */
@@ -69,7 +69,7 @@ abstract class Presenter implements PresenterInterface
     /**
      * Get multi level dropdown menu wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string
      */
@@ -80,7 +80,7 @@ abstract class Presenter implements PresenterInterface
     /**
      * Get child menu items.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string
      */

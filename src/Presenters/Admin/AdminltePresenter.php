@@ -1,8 +1,8 @@
 <?php
 
-namespace xxallanxx\Menus\Presenters\Admin;
+namespace Nwidart\Menus\Presenters\Admin;
 
-use xxallanxx\Menus\Presenters\Presenter;
+use Nwidart\Menus\Presenters\Presenter;
 
 class AdminltePresenter extends Presenter
 {
@@ -89,7 +89,7 @@ class AdminltePresenter extends Presenter
     /**
      * Get multilevel menu wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string`
      */

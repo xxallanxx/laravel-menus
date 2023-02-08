@@ -1,6 +1,6 @@
 <?php
 
-namespace xxallanxx\Menus;
+namespace Nwidart\Menus;
 
 use Countable;
 use Illuminate\Contracts\Config\Repository;
@@ -121,7 +121,7 @@ class MenuBuilder implements Countable
      *
      * @param  string $key
      * @param  string $value
-     * @return \xxallanxx\Menus\MenuItem
+     * @return \Nwidart\Menus\MenuItem
      */
     public function findBy($key, $value)
     {
@@ -195,7 +195,7 @@ class MenuBuilder implements Countable
     /**
      * Get presenter instance.
      *
-     * @return \xxallanxx\Menus\Presenters\PresenterInterface
+     * @return \Nwidart\Menus\Presenters\PresenterInterface
      */
     public function getPresenter()
     {
@@ -325,7 +325,7 @@ class MenuBuilder implements Countable
      *
      * @param array $attributes
      *
-     * @return \xxallanxx\Menus\MenuItem
+     * @return \Nwidart\Menus\MenuItem
      */
     public function add(array $attributes = array())
     {
@@ -448,7 +448,7 @@ class MenuBuilder implements Countable
      * Add new divider item.
      *
      * @param int $order
-     * @return \xxallanxx\Menus\MenuItem
+     * @return \Nwidart\Menus\MenuItem
      */
     public function addDivider($order = null)
     {
@@ -460,7 +460,7 @@ class MenuBuilder implements Countable
     /**
      * Add new header item.
      *
-     * @return \xxallanxx\Menus\MenuItem
+     * @return \Nwidart\Menus\MenuItem
      */
     public function addHeader($title, $order = null)
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace xxallanxx\Menus\Tests;
+namespace Nwidart\Menus\Tests;
 
 use Illuminate\Support\Arr;
-use xxallanxx\Menus\Menu;
-use xxallanxx\Menus\MenuItem;
+use Nwidart\Menus\Menu;
+use Nwidart\Menus\MenuItem;
 
 class MenuItemTest extends BaseTestCase
 {

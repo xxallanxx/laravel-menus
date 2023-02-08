@@ -1,8 +1,8 @@
 <?php
 
-namespace xxallanxx\Menus\Presenters;
+namespace Nwidart\Menus\Presenters;
 
-use xxallanxx\Menus\MenuItem;
+use Nwidart\Menus\MenuItem;
 
 interface PresenterInterface
 {
@@ -23,7 +23,7 @@ interface PresenterInterface
     /**
      * Get menu tag without dropdown wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string
      */
@@ -39,7 +39,7 @@ interface PresenterInterface
     /**
      * Get divider tag wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return mixed
      */
@@ -48,7 +48,7 @@ interface PresenterInterface
     /**
      * Get menu tag with dropdown wrapper.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string
      */
@@ -57,7 +57,7 @@ interface PresenterInterface
     /**
      * Get child menu items.
      *
-     * @param \xxallanxx\Menus\MenuItem $item
+     * @param \Nwidart\Menus\MenuItem $item
      *
      * @return string
      */

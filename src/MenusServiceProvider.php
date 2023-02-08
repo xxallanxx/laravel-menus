@@ -1,6 +1,6 @@
 <?php
 
-namespace xxallanxx\Menus;
+namespace Nwidart\Menus;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
@@ -85,7 +85,7 @@ class MenusServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-            $viewsPath => base_path('resources/views/vendor/xxallanxx/menus'),
+            $viewsPath => base_path('resources/views/vendor/nwidart/menus'),
         ], 'views');
     }
 }

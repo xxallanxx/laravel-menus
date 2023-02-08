@@ -1,10 +1,10 @@
 <?php
 
-namespace xxallanxx\Menus\Facades;
+namespace Nwidart\Menus\Facades;
 
 use Closure;
 use Illuminate\Support\Facades\Facade;
-use xxallanxx\Menus\MenuBuilder;
+use Nwidart\Menus\MenuBuilder;
 
 /**
  * @method static MenuBuilder make($name, Closure $callback) Make new menu.

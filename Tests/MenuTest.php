@@ -1,9 +1,9 @@
 <?php
 
-namespace xxallanxx\Menus\Tests;
+namespace Nwidart\Menus\Tests;
 
-use xxallanxx\Menus\Menu;
-use xxallanxx\Menus\MenuBuilder;
+use Nwidart\Menus\Menu;
+use Nwidart\Menus\MenuBuilder;
 
 class MenuTest extends BaseTestCase
 {
